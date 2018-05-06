@@ -131,10 +131,7 @@ int main()
 			access();			//namayesh nenu
 			cout << full() << endl;
 			break;
-		case 5:
-			access();			//namayesh nenu
-			cout << empty() << endl;
-			break;
+		
 		}//end swith
 
 	}//end while

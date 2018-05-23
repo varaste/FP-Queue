@@ -39,15 +39,6 @@ int HEAD = 0;
 int TAIL = 0;
 int fp = 0, lp = 0;// cell_first    cell_last
 
-bool empty() {									//barresi e khali bodane saf
-
-	return TAIL == HEAD && fp == lp;
-}//end empty
-
-bool full() {									//barresi e por bodane saf
-
-	return TAIL == HEAD && fp != lp;
-}//end empty
 
 void push(int x) {
 	if (!full())

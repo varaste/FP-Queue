@@ -19,19 +19,7 @@ void access()
 	cout << "for peek  ------- 3 \n";
 	SetConsoleTextAttribute(hstdout, 0xb);
 	cout << "for isfull  ----- 4\n";
-	SetConsoleTextAttribute(hstdout, 0x0d);
-	cout << "for isempty ----- 5  \n";
-}
 
-int input_number()   // gereftane adad az 1 to 5
-{
-	int a;
-	cin >> a;
-	while (a > 5 || a < 1)
-	{
-		cin >> a;
-	}//end while
-	return a;
 }
 
 int a[5];//queue
@@ -69,21 +57,6 @@ void peek()
 		SetConsoleTextAttribute(hstdout, 0x0f);
 		cout << "Empty array\n";
 
-	}//end else
-}//end peek
-
-void pop() {
-	peek();
-	if (!empty())
-	{
-		if (HEAD == 4)
-		{
-			HEAD = -1, lp++;
-		}
-		HEAD++;
-	}//end if
-	else
-	{
 		cout << "Empty array\n";
 	}//end else
 
@@ -100,12 +73,7 @@ int main()
 
 	while (s)
 	{
-		s = input_number();
-		switch (s)
-		{
-
-		case 1:
-			cin >> a;
+		s = input_number
 			access();			//namayesh nenu
 			push(a);
 			break;

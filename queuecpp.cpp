@@ -21,18 +21,6 @@ void access()
 	cout << "for isfull  ----- 4\n";
 
 }
-
-int a[5];//queue
-int HEAD = 0;
-int TAIL = 0;
-int fp = 0, lp = 0;// cell_first    cell_last
-
-
-void push(int x) {
-	if (!full())
-	{
-		a[TAIL] = x;
-		TAIL++;
 		if (TAIL == 5)
 		{
 			TAIL = 0, fp++;

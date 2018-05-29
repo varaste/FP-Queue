@@ -22,9 +22,7 @@ void access()
 
 }
 		if (TAIL == 5)
-		{
-			TAIL = 0, fp++;
-		}
+
 	}//end if
 	else
 	{
@@ -79,8 +77,7 @@ int main()
 			cout << full() << endl;
 			break;
 		
-		}//end swith
-
+		
 	}//end while
 }//end main
 

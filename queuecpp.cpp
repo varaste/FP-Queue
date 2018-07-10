@@ -51,19 +51,6 @@ void peek()
 
 
 
-int main()
-{
-	access();			//namayesh nenu
-	int s = 1;
-	int a;
-
-	while (s)
-	{
-		s = input_number
-			access();			//namayesh nenu
-			push(a);
-			break;
-		case 2:
 			access();			//namayesh nenu
 			pop();
 			break;

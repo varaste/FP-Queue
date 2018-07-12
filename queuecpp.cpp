@@ -18,19 +18,7 @@ void access()
 	SetConsoleTextAttribute(hstdout, 0x0e);
 	cout << "for peek  ------- 3 \n";
 	SetConsoleTextAttribute(hstdout, 0xb);
-	cout << "for isfull  ----- 4\n";
-
-}
-		if (TAIL == 5)
-
-	}//end if
-	else
-	{
-		SetConsoleTextAttribute(hstdout, 0x0f);
-		cout << "Full array\n";
-	}//end else
-
-}//end push
+	cout << "for isfull  ----- 4\
 
 void peek()
 {
@@ -62,14 +50,5 @@ void peek()
 		case 4:
 			access();			//namayesh nenu
 			cout << full() << endl;
-			break;
-		
-		
-	}//end while
-}//end main
-
-
-
-
 
 

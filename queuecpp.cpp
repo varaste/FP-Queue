@@ -8,14 +8,6 @@ using namespace std;
 HANDLE hstdout = GetStdHandle(STD_OUTPUT_HANDLE); //Color for text
 HANDLE hstdin = GetStdHandle(STD_INPUT_HANDLE); //Color for text
 
-void access()
-{
-	system("cls");
-	SetConsoleTextAttribute(hstdout, 0x0a);
-	cout << "for enqueue ----- 1 \n";
-	SetConsoleTextAttribute(hstdout, 0x0c);
-	cout << "for dequeue ----- 2 \n";
-	SetConsoleTextAttribute(hstdout, 0x0e);
 	cout << "for peek  ------- 3 \n";
 	SetConsoleTextAttribute(hstdout, 0xb);
 	cout << "for isfull  ----- 4\

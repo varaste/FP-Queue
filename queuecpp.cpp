@@ -4,8 +4,7 @@
 #include <windows.h>
 //12
 using namespace std;
-
-HANDLE hstdout = GetStdHandle(STD_OUTPUT_HANDLE); //Color for text
+_OUTPUT_HANDLE); //Color for text
 HANDLE hstdin = GetStdHandle(STD_INPUT_HANDLE); //Color for text
 
 	cout << "for peek  ------- 3 \n";
@@ -13,13 +12,6 @@ HANDLE hstdin = GetStdHandle(STD_INPUT_HANDLE); //Color for text
 	cout << "for isfull  ----- 4\
 
 void peek()
-{
-	if (!empty())
-	{
-		cout << a[HEAD];
-	}//end if
-	else
-	{
 		SetConsoleTextAttribute(hstdout, 0x0f);
 		cout << "Empty array\n";
 
